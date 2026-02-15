@@ -1,5 +1,5 @@
 {
-  "name": "@kieranmv95/agent-rules",
+  "name": "@localhostdevelopment/agent-rules",
   "version": "0.1.0",
   "description": "Set up AI agent rules and configuration for your project",
   "type": "module",
