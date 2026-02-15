@@ -1,10 +1,10 @@
 {
-  "name": "agent-setup",
+  "name": "agent-rules",
   "version": "0.1.0",
   "description": "Set up AI agent rules and configuration for your project",
   "type": "module",
   "bin": {
-    "agent-setup": "./dist/cli.js"
+    "agent-rules": "./dist/cli.js"
   },
   "main": "./dist/cli.js",
   "files": [

@@ -1,11 +1,11 @@
-# agent-setup
+# agent-rules
 
 CLI tool to set up AI agent rules and configuration for your project.
 
 ## Install
 
 ```bash
-npm install -g agent-setup
+npm install -g agent-rules
 ```
 
 ## Usage
@@ -18,9 +18,8 @@ agent-setup
 
 You'll be prompted to select a stack:
 
+- **Base** (Generic Typescript Project)
 - **Expo** (React Native)
-- **Next.js**
-- **Node API**
 
 The tool will:
 
