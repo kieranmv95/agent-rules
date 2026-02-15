@@ -1,6 +1,6 @@
 {
   "name": "@localhostdevelopment/agent-rules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set up AI agent rules and configuration for your project",
   "type": "module",
   "homepage": "https://github.com/kieranmv95/agent-rules#readme",
