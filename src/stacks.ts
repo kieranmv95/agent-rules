@@ -18,6 +18,12 @@ export const STACKS: StackConfig[] = [
     description: "React Native with Expo framework",
     rules: ["expo-router.mdc"],
   },
+  {
+    name: "Next.js",
+    value: "next",
+    description: "Next.js App Router (React)",
+    rules: ["next-app-router.mdc", "next-components.mdc", "next-data.mdc"],
+  },
 ];
 
 export const BASE_RULES = [

@@ -1,0 +1,14 @@
+---
+description: Next.js data fetching and server actions
+globs: "app/**/*.ts, app/**/*.tsx, actions/**/*.ts"
+alwaysApply: false
+---
+
+# Next.js Data Fetching
+
+- Fetch data in Server Components. Avoid client-side fetching where server fetch suffices.
+- Use Server Actions (`"use server"`) for mutations and form submissions.
+- Use `revalidatePath` or `revalidateTag` to invalidate cached data after mutations.
+- Prefer `fetch` with `next: { revalidate }` or `next: { tags }` for cache control.
+- Handle loading and error states with `loading.tsx` and `error.tsx` route files.
+- Do not expose sensitive data or secrets in Client Components.

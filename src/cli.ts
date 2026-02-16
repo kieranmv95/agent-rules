@@ -6,7 +6,7 @@ import { generateRules } from "./generators/rules.js";
 import { generateAgentsFile } from "./generators/agents.js";
 
 async function main(): Promise<void> {
-  console.log(chalk.bold.cyan("\n🤖 agent-rules v0.1.0\n"));
+  console.log(chalk.bold.cyan("\n🤖 agent-rules v0.2.0\n"));
   console.log(chalk.dim("Set up AI agent rules for your project.\n"));
 
   try {

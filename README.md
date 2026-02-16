@@ -20,6 +20,7 @@ You'll be prompted to select a stack:
 
 - **Base** (Generic Typescript Project)
 - **Expo** (React Native)
+- **Next.js** (App Router)
 
 The tool will:
 

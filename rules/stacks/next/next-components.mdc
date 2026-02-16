@@ -1,0 +1,13 @@
+---
+description: Next.js Server and Client Component conventions
+globs: "app/**/*.ts, app/**/*.tsx, components/**/*.ts, components/**/*.tsx"
+alwaysApply: false
+---
+
+# Next.js Components
+
+- Components are Server Components by default. Do not add `"use client"` unless required.
+- Add `"use client"` only when using hooks, browser APIs, or event handlers.
+- Minimise the client boundary. Extract interactive parts into small Client Components.
+- Do not pass non-serializable props (functions, classes) from Server to Client Components.
+- Prefer composition: pass Server Components as `children` to Client Components when possible.

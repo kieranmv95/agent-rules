@@ -1,0 +1,14 @@
+---
+description: Next.js App Router file-based routing and route structure
+globs: "app/**/*.ts, app/**/*.tsx"
+alwaysApply: false
+---
+
+# Next.js App Router
+
+- Follow file-based routing with the App Router (`app/` directory).
+- Use `page.tsx` for routes, `layout.tsx` for shared layouts, `loading.tsx` for suspense fallbacks, `error.tsx` for error boundaries, `not-found.tsx` for 404 pages.
+- Keep route files thin. Move logic to components/hooks.
+- Use route groups `(groupName)` to organise without affecting URL paths.
+- Prefer co-locating related components alongside their route segment.
+- Use `generateMetadata` or `metadata` export for per-route metadata.
